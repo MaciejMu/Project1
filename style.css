@@ -9,7 +9,7 @@ body {
   height: 200vh;
 }
 
-header {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,18 +28,11 @@ header {
   list-style: none;
 }
 
-nav li {
+.nav__item {
   margin: 1rem;
   cursor: pointer;
 }
 
-main {
+.main {
   margin-top: 6rem;
 }
-
-/* footer {
-  height: 4rem;
-  bottom: 0;
-  width: 100%;
-  background-color: cadetblue;
-} */
