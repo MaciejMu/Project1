@@ -33,33 +33,45 @@
     </header>
     <main class="main">
       <form class="form">
-        <label class="label__name">Imię</label
-        ><input
-          class="input__name"
-          type="text"
-          name="name"
-          placeholder="Imię..."
-        />
-        <label class="label__lastname">Nazwisko</label
-        ><input
-          class="input__lastname"
-          type="text"
-          name="lastname"
-          placeholder="Nazwisko..."
-        />
-        <label class="label__email">E-mail</label
-        ><input
-          class="input__email"
-          type="text"
-          name="email"
-          placeholder="E-mail..."
-        />
-        <label class="label__subject">Temat</label>
-        <select class="select" name="subject">
-          <option value="współpraca">Współpraca</option>
-          <option value="zgłoszenie błedu">Zgłoszenie błedu</option>
-          <option value="inne">Inne</option>
-        </select>
+        <div class="container">
+          <div>
+            <label class="label__name">Imię</label
+            ><input
+              class="input__name"
+              type="text"
+              name="name"
+              placeholder="Imię..."
+            />
+          </div>
+          <div>
+            <label class="label__lastname">Nazwisko</label
+            ><input
+              class="input__lastname"
+              type="text"
+              name="lastname"
+              placeholder="Nazwisko..."
+            />
+          </div>
+        </div>
+        <div class="container">
+          <div>
+            <label class="label__email">E-mail</label
+            ><input
+              class="input__email"
+              type="text"
+              name="email"
+              placeholder="E-mail..."
+            />
+          </div>
+          <div>
+            <label class="label__subject">Temat</label>
+            <select class="select" name="subject">
+              <option value="współpraca">Współpraca</option>
+              <option value="zgłoszenie błedu">Zgłoszenie błedu</option>
+              <option value="inne">Inne</option>
+            </select>
+          </div>
+        </div>
         <textarea
           class="textarea"
           name="content"

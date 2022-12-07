@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 200vh;
   margin-top: 7rem;
-  background: linear-gradient(45deg, #2f1c53, #2e41b0ca, #9899db);
+  background: linear-gradient(-120deg, #f3f3f5, #e90b8b, #352384, #333447);
 }
 
 .header {
@@ -23,7 +23,6 @@ body {
   top: 0;
   background: whitesmoke;
   box-shadow: 0 8px 10px rgba(55, 55, 55, 0.576);
-  color: #273cb8;
   letter-spacing: 1.2px;
 }
 
@@ -40,6 +39,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
+  color: #273cb8;
 }
 
 .nav__item:hover {

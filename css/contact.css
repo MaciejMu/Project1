@@ -3,13 +3,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .form {
   background: white;
-  height: 650px;
+  height: 600px;
   width: 1000px;
-  display: flex;
-  flex-direction: column;
-  padding: 50px 70px 50px 70px;
+  padding: 50px 100px 50px 100px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -24,15 +23,9 @@
   margin-bottom: 16px;
   border-radius: 5px;
   border: 1.5px solid #273cb8;
-}
-
-.input__name,
-.input__lastname,
-.input__email,
-.input__subject,
-.select {
   width: 200px;
   height: 40px;
+  padding: 8px;
 }
 
 .label__name,
@@ -44,18 +37,15 @@
   text-transform: uppercase;
   color: #273cb8;
   letter-spacing: 1.2px;
+  padding-right: 10px;
 }
-
-.input__name,
-.input__lastname,
-.input__email,
-.input__subject,
-.textarea {
-  padding: 5px;
+.label__name {
+  margin-right: 26px;
 }
 
 .textarea {
-  height: 150px;
+  height: 300px;
+  width: 800px;
 }
 
 .btn {
@@ -67,4 +57,17 @@
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 1.8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #515ea8;
+}
+
+.container {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
 }
