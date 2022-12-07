@@ -6,8 +6,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 200vh;
   margin-top: 7rem;
   background: linear-gradient(-120deg, #f3f3f5, #e90b8b, #352384, #333447);
 }
@@ -44,4 +45,10 @@ body {
 
 .nav__item:hover {
   color: #2196f2;
+}
+
+.footer {
+  margin-top: 50px;
+  background: #273cb8;
+  min-height: 100px;
 }

@@ -6,11 +6,17 @@
 
 .form {
   background: white;
-  height: 600px;
-  width: 1000px;
+  height: 400px;
+  width: 800px;
   padding: 50px 100px 50px 100px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  width: 615px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .input__name,
@@ -23,7 +29,7 @@
   margin-bottom: 16px;
   border-radius: 5px;
   border: 1.5px solid #273cb8;
-  width: 200px;
+  width: 150px;
   height: 40px;
   padding: 8px;
 }
@@ -44,12 +50,12 @@
 }
 
 .textarea {
-  height: 300px;
-  width: 800px;
+  height: 200px;
+  width: 400px;
 }
 
 .btn {
-  width: 300px;
+  width: 100px;
   height: 50px;
   background: #273cb8;
   color: white;
@@ -64,10 +70,4 @@
 
 .btn:hover {
   background: #515ea8;
-}
-
-.container {
-  width: 800px;
-  display: flex;
-  justify-content: space-between;
 }
