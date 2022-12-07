@@ -6,9 +6,9 @@
 
 .form {
   background: white;
-  height: 400px;
+  height: 475px;
   width: 800px;
-  padding: 50px 100px 50px 100px;
+  padding: 50px 90px 0px 95px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -51,7 +51,7 @@
 
 .textarea {
   height: 200px;
-  width: 400px;
+  width: 615px;
 }
 
 .btn {
